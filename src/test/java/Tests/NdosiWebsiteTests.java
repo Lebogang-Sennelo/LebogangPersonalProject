@@ -1,9 +1,12 @@
 package Tests;
 
+import ExtentReports.Listener;
 import Utils.ReadFromFile;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(Listener.class)
 public class NdosiWebsiteTests extends Base {
 
     @Test
